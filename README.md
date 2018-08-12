@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
 ## membersテーブル
 
 |Column|Type|Options|
