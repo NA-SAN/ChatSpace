@@ -30,7 +30,7 @@
 - has_many :messages
 
 
-##users_goups
+## users_goups
 
 |Column|Type|Options|
 |------|----|-------|
