@@ -14,6 +14,8 @@
 ### Association
 - has_many :group
 - has_many :messages
+- has_many :users_groups
+- has_many :groups, thought: :users_groups
 
 
 ## groups table
