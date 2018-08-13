@@ -21,7 +21,6 @@
 |Column|Type|Options|
 |------|----|-------|
 |name|string|null: false|
-|user_id|references|null: false, forein_key: true|
 
 ### Association
 - has_many :messages
