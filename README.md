@@ -7,7 +7,6 @@
 |name|string|index: true, null: false, unique: true|
 |password|integer|null: false|
 |mail|string|null: false|
-|group_id|references|null: false, foreign_key: true|
 |message_id|references|null: false, foreign_key: true|
 
 
