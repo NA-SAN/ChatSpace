@@ -41,7 +41,7 @@
 - belongs_to :groups
 
 
-## message table
+## messages table
 
 |Column|Type|Options|
 |------|----|-------|
