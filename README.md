@@ -22,7 +22,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null: falese, foreign_key: true|
+|name|string|null: falese, foreign_key: true|
 |user_id|references|hull:falese, forein_key: true|
 
 ### Association
