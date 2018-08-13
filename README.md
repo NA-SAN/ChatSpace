@@ -6,7 +6,7 @@
 |------|----|-------|
 |name|string|index: true, null: false, unique: true|
 |password|integer|null: false|
-|mail|string|null: false|
+|mail|string|null: false, unique: true|
 |message_id|references|null: false, foreign_key: true|
 
 
