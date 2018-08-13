@@ -6,10 +6,10 @@
 |------|----|-------|
 |id|integer|null: false, foreign_key: true|
 |name|string|index: true, null: false, unique: true|
-|password|integer|
+|password|integer|null: false|
 |mail|string|null: false|
-|group_id|integer|null: false, foreign_key: true|
-|message_id|integer|null: false, foreign_key: true|
+|group_id|references|null: false, foreign_key: true|
+|message_id|references|null: false, foreign_key: true|
 
 
 ### Association
@@ -23,7 +23,7 @@
 |------|----|-------|
 |id|integer|null: false, foreign_key: true|
 |group_name|string|null: falese, foreign_key: true|
-|user_id|integer|hull:falese, forein_key: true|
+|user_id|references|hull:falese, forein_key: true|
 
 ### Association
 - has_many :users, thought: :users_group
@@ -35,8 +35,8 @@
 |Column|Type|Options|
 |------|----|-------|
 |id|integer|null: false|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
+|user_id|references|null: false, foreign_key: true|
+|group_id|references|null: false, foreign_key: true|
 
 ### Association
 - belongs_to :users
@@ -48,7 +48,7 @@
 |Column|Type|Options|
 |------|----|-------|
 |id|integer|null: false, foreign_key: true|
-|user_id|integer|null: false, foreign_key: true|
+|user_id|references|null: false, foreign_key: true|
 
 ### Association
 - belongs_to :users
