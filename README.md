@@ -26,6 +26,7 @@
 ### Association
 - has_many :users, thought: :users_group
 - has_many :users_group
+- has_many :messages
 
 
 ##users_goups
@@ -48,5 +49,5 @@
 
 ### Association
 - belongs_to :users
-
+- belongs_to :groups
 
