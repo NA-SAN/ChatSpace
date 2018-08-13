@@ -16,7 +16,7 @@
 - has_many :messages
 
 
-## group table
+## groups table
 
 |Column|Type|Options|
 |------|----|-------|
