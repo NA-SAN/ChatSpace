@@ -4,7 +4,6 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|id|integer|null: false, foreign_key: true|
 |name|string|index: true, null: false, unique: true|
 |password|integer|null: false|
 |mail|string|null: false|
@@ -21,7 +20,6 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|id|integer|null: false, foreign_key: true|
 |group_name|string|null: falese, foreign_key: true|
 |user_id|references|hull:falese, forein_key: true|
 
@@ -34,7 +32,6 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|id|integer|null: false|
 |user_id|references|null: false, foreign_key: true|
 |group_id|references|null: false, foreign_key: true|
 
@@ -47,7 +44,6 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|id|integer|null: false, foreign_key: true|
 |user_id|references|null: false, foreign_key: true|
 
 ### Association
