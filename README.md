@@ -24,8 +24,8 @@
 |user_id|references|hull:falese, forein_key: true|
 
 ### Association
-- has_many :users, thought: :users_group
 - has_many :users_group
+- has_many :users, thought: :users_group
 - has_many :messages
 
 
